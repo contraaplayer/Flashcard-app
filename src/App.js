@@ -55,6 +55,9 @@ function App() {
   return (
     <>
       <form className='header' onSubmit={handleSubmit}>
+        <div class="titulo">
+          <h1>Ezmemory</h1>
+        </div>
         <div className="form-group">
           <label htmlFor='category'>Categoría</label>
           <select id="category" ref={categoryEl}>
